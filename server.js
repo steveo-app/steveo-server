@@ -21,7 +21,7 @@ server.use('/api/users', userRouter);
 /// main get endpoint
 
 server.get('/', (req, res) => {
-    res.send("<h1>Welcome to Eventr API</h1>")
+    res.send("<h1>Welcome to Steveo API</h1>")
 });
 
 module.exports = server;
