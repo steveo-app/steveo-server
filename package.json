@@ -1,0 +1,40 @@
+{
+  "name": "steveo-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.13.0"
+  },
+  "description": "Data for Steveo",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveo-app/steveo-server"
+  },
+  "keywords": [
+    "vigz"
+  ],
+  "author": "Anthony Vigliotta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveo-app/steveo-server"
+  },
+  "homepage": "https://github.com/steveo-app/steveo-server",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.1",
+    "knex-cleaner": "^1.3.0",
+    "nodemon": "^1.19.4",
+    "sqlite3": "^4.1.0"
+  }
+}
